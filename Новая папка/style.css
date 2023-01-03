@@ -1,0 +1,71 @@
+/* .list li:last-child a {
+  color: red;
+}
+
+.list li:first-child a {
+  color: blue;
+} */
+
+/* .list li:nth-last-child(odd) a {
+  color: red;
+} */
+
+/* .list li:nth-child(3) a {
+  color: red;
+} */
+
+/* .list a:hover {
+  color: yellow;
+} */
+/* 
+.list li:not(.not-exmp) a {
+  color: yellowgreen;
+} */
+/* .list {
+  list-style: none;
+}
+.list li::before {
+  content: '';
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: salmon;
+  margin-right: 5px;
+} */
+
+/* .list li::after {
+  content: 'Text';
+} */
+
+.block {
+  width: 100px;
+  height: 100px;
+  margin: 100px;
+  background-color: black;
+  color: aliceblue;
+  text-align: center;
+  font-size: 20px;
+}
+
+.pos-relative {
+    position: relative;
+    top: 20px;
+    left: 40px;
+}
+
+.pos-absolute {
+  position: absolute;
+
+}
+
+.pos-fixed {
+  position: fixed;
+    top: 0px;
+    right: 0;
+}
+.absolute-container {
+  width: 500px;
+  height: 500px;
+  padding: 50px;
+  background-color: chartreuse;
+}
