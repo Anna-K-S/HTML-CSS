@@ -1,0 +1,40 @@
+.flex-container {
+  padding: 20px;
+  color: black;
+  display: flex;
+
+  /* justify-content: space-evenly; */
+  flex-wrap: wrap; 
+}
+
+.flex-el {
+  width: 100px;
+  height: 100px;
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  /* flex-grow: 1; */
+}
+
+.bg-blue {
+  background-color: blue;
+  /* order: 1 ; */
+}
+
+.bg-orange {
+  background-color: orange;
+}
+.bg-green { 
+  background-color: green;
+  
+}
+
+.bg-violet{
+ background-color: violet;
+ 
+}
+
+.bg-pink {
+  background-color: pink;
+ 
+}
